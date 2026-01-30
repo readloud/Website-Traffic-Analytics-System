@@ -19,7 +19,7 @@ System for use on Kali Linux features:
 * To deploy to another website, simply embed the tracking script and configure the site_id in the dashboard!
 
 ```
-git clone
+git clone https://github.com/readloud/Web-Traffic-Analytics-.git
 ```
 
 ## 📦 **1. INITIAL SETUP OF KALI LINUX**
@@ -2851,4 +2851,5 @@ echo "IMPORTANT: Change default passwords immediately!"
 5. **Dashboard not loading:**
    ```bash
    sudo tail -f /var/www/html/traffic/logs/php_errors.log
+
    ```
